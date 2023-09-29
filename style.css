@@ -122,6 +122,10 @@ form button:hover {
 }
 
 /* modal */
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
 .modal-wrapper {
   position: absolute;
   inset: 0;
@@ -153,7 +157,7 @@ form button:hover {
 }
 
 /* alert error */
-.alert-error {
+.alert-error.open {
   position: absolute;
   background-color: var(--bg-error);
   top: 0;
